@@ -6,8 +6,7 @@ class HelloWorldHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         with open(f"spunkcronyms.list", "r") as f:
             spunklist = f.readlines()
-        y = len(spunklist)
-        x = randrange(y)
+        x = randrange(len(spunklist))
         spunk = spunklist[x]
         today = f"Your Spunkcronym of the day is: {spunk}"
         self.send_response(200)
