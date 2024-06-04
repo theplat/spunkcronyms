@@ -1,0 +1,40 @@
+June 3rd
+
+Why? Why not? I've been working with a good friend recently who is teaching me, and a few others, the ropes of the cloud and the pythons
+and the IaC world. After a recent friday lesson where we did a very very basic python webapp, I found myself on the back patio with a pint
+(as you do)...
+
+My wonderful wife had come across a segment on a popular podcast she likes (stick tap comedy bang bang) and read me a list of silly list
+of alternate names for cum. Being a forever child this amused me greatly. 
+
+Turns out ... spunkronyms.com was available ... and since I was supposed to craft my own silly API type webapp as homework ... 2+2=4
+
+
+
+v0.1.1 - This is nothing more than a rework of an old python script I was given back when I first tried to make a dockerfile. 
+
+I created the initial list of spunkcronyms from the podcase, and added in a few of my own. 
+I edited the script to read in that file to a list
+I wrote, probably the ugliest code ever to take the len of that list, generate a random number and print a formatted string
+(bonus points to me for finding a function I could import for the random number generation!)
+
+
+and after fixing many typos and silly syntex errors, suddenly it started! and sure as shit, It randomly gives me a synonym for cum!
+
+
+HUZZZZAH
+
+
+Next steps - clean up the code somewhat, create a docker container that spins up, grabs the latest files from github, and serves the site
+
+Long term next steps
+    - terraform to launch the docker host
+    - same terraform to update DNS record 
+    - ansible to install docker and pull the image
+
+LONG term next step
+    - combine the whole thing into one bigass bash script where I can type CUMONSOMETHING and have the whole infra spin up, do the things
+      and make a live website appear!
+
+
+HUZZAH!
