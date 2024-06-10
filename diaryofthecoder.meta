@@ -25,6 +25,15 @@ and after fixing many typos and silly syntex errors, suddenly it started! and su
 HUZZZZAH
 
 
+
+June 10
+
+Got a lesson in FLASK as a python setup vs using wsgi and doing everything by hand. Recoded to 
+support FLASK (spunk2.py). also added routing "/" returns a simple spunkcronym where as "/yourmom"
+will return that spunkcronym into your mom. awful I know
+
+
+
 Next steps - clean up the code somewhat, create a docker container that spins up, grabs the latest files from github, and serves the site
 
 Long term next steps
@@ -37,4 +46,5 @@ LONG term next step
       and make a live website appear!
 
 
-HUZZAH!
+
+
